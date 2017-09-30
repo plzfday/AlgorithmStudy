@@ -102,6 +102,18 @@ void DLL_InsertAfter(Node* Current, Node* NewNode)
 	Current->NextNode = NewNode;
 }
 
+/* 더블 링크드 리스트를 역순으로 출력하기!(Print List Revesely) */
+void PrintReverse(Node* Head, int num)
+{
+	if (Head == NULL)
+		return;
+
+	Node* Current = Head;
+	
+	PrintReverse(Current->NextNode, ++num);
+	printf("List[%d] : %d\n", num - 1, Current->Data);
+}
+
 /* 노드 수 세기(Get Node Count) */
 int DLL_GetNodeCount(Node* Head)
 {

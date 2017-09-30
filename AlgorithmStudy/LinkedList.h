@@ -8,7 +8,7 @@ typedef int ElementType;
 
 typedef struct tagNode
 {
-	int Data;
+	ElementType Data;
 	struct tagNode* NextNode;
 } Node;
 

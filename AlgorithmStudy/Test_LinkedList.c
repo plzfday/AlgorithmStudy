@@ -1,5 +1,4 @@
-﻿// for commit
-#include "LinkedList.h"
+﻿#include "LinkedList.h"
 
 int main(void)
 {

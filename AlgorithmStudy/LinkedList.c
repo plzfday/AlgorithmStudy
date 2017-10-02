@@ -24,7 +24,6 @@ void SLL_AppendNode(Node** Head, Node* NewNode)
 	}
 	else
 	{
-		// Å×ÀÏÀ» Ã£¾Æ NewNode¸¦ ¿¬°áÇÑ´Ù
 		Node* Tail = (*Head);
 		while (Tail->NextNode != NULL)
 		{

@@ -1,4 +1,5 @@
-﻿#include "LinkedList.h"
+﻿// for commit
+#include "LinkedList.h"
 
 Node* SLL_CreatNode(int NewData)
 {
